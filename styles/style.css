@@ -1,3 +1,43 @@
 * {
     box-sizing: border-box;
 }
+body
+{
+    font-family: var(--main-font);
+}
+:root /* || Variables */
+{
+    --main-font: "Playfair Display", serif;
+    --main-width: 50rem;
+    --primary-color: coral;
+    --text-color: rgb(30, 30, 30);
+}
+nav /* || Semantic tags */
+{
+    background-color: var(--primary-color);
+    display: flex;
+}
+header
+{
+
+}
+main
+{
+
+}
+footer
+{
+
+}
+nav, header, main, footer
+{
+    max-width: var(--main-width);
+}
+.link /* Class tags */
+{
+
+}
+.link:hover
+{
+    background-color: rgb(211, 108, 70);
+}
