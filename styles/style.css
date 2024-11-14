@@ -4,6 +4,7 @@
 body
 {
     font-family: var(--main-font);
+    background-color: var(--body-background);
 }
 :root /* || Variables */
 {
@@ -11,11 +12,14 @@ body
     --main-width: 50rem;
     --primary-color: coral;
     --text-color: rgb(30, 30, 30);
+    --body-background: rgb(237, 228, 228); 
 }
 nav /* || Semantic tags */
 {
-    background-color: var(--primary-color);
     display: flex;
+    color: var(--text-color);
+    gap: 1rem;
+
 }
 header
 {
@@ -23,21 +27,75 @@ header
 }
 main
 {
-
+    margin: auto;
+    width: 50rem;
+    display: flex;
+    gap: 10rem;
+    align-items: self-start;
 }
 footer
+{
+
+}
+aside
+{
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 1rem;
+    border: 1px, black, solid;
+}
+article
 {
 
 }
 nav, header, main, footer
 {
     max-width: var(--main-width);
+    margin: auto;
 }
-.link /* Class tags */
+footer, nav
 {
-
+    background-color: var(--primary-color);
+}
+article, aside
+{
+    width: 20rem;
+}
+.link /* || Class tags */
+{
+    padding: 0.5rem;
+}
+.link a
+{
+    text-decoration: none;
+    color: var(--text-color);
 }
 .link:hover
 {
     background-color: rgb(211, 108, 70);
+}
+.smalltext
+{
+    font-size: 0.5rem;
+}
+.imagecitationtext
+{
+    font-size: 0.68rem;
+}
+.articlecontainer, .asidecontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+img /* || misc */
+{
+    width: 20rem;
+}
+a
+{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.imagecitationtext :hover
+{
+    color: rgb(211, 108, 70);
 }
