@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body
+{
+    font-family: var(--main-font);
+    background-color: var(--body-background);
+}
+:root /* || Variables */
+{
+    --main-font: "Playfair Display", serif;
+    --main-width: 50rem;
+    --primary-color: coral;
+    --text-color: rgb(30, 30, 30);
+    --body-background: rgb(247, 243, 243); 
+}
+
+.titlecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.titlecontainer p
+{
+    text-align: center;
+}
+main
+{
+    display: block;
+}
+h3
+{
+    text-align: center;
+}
+p
+{
+    text-align: center;
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+h4{
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
