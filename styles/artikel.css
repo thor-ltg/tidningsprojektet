@@ -2,5 +2,25 @@
     box-sizing: border-box;
 }
 
+.titelavartikeln{ 
+    display: flex;
+    justify-content: left;
+}
 
+.Texten{
+    display: flex;
+    align-items: self-start;
+    justify-content: left;
+    align-items: center;
 
+}
+
+.bild{
+    width: 30rem;
+}
+.alltext
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+}
