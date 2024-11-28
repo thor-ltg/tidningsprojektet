@@ -15,8 +15,13 @@
 
 }
 
-.bild{
+.bild
+{
     width: 30rem;
+}
+.imagecitationtext
+{
+    margin-bottom: 0.5rem;
 }
 .alltext
 {
