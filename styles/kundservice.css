@@ -16,27 +16,30 @@ body
 }
 
 .titlecontainer{
-    display: flex;
     justify-content: center;
     gap: 1rem;
-}
-.titlecontainer p
-{
     text-align: center;
 }
+
 main
 {
     display: block;
 }
-h3
+.imgcontainer
 {
-    text-align: center;
+    width: 40rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
 }
-p
+.imagecitationtext
 {
-    text-align: center;
+    width: 40rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    flex-direction: column;
 }
-
 
 
 .bottom{
@@ -47,7 +50,7 @@ p
 
 
 h4{
-    background-color: lightgray;
+    background-color: rgb(235, 189, 137);
     padding: 1rem;
     border-radius: 0.5rem;
 }
