@@ -102,6 +102,11 @@ article, aside
     flex: wrap;
     gap: 3rem;
 }
+.annonstext
+{
+    font-size: 0.5rem;
+    color: gray;
+}
 img /* || misc */
 {
     width: 20rem;
